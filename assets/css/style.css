@@ -8,9 +8,22 @@
     font-family: "Roboto";
 }
 
-.w-100{
+.w-100 {
     width: 100%;
 }
+
+.fs-15{
+    font-size: 15px !important;
+}
+
+.fw-200 {
+    font-weight: 200;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
 .nav-section {
     background-color: rgba(30, 113, 255);
 }
@@ -37,6 +50,10 @@
     margin-left: 10px;
 }
 
+.nav-btn:hover{
+    background-color: #fff !important;
+    color:rgba(75, 141, 255) !important ;
+}
 li {
     padding-left: 20px !important;
 }
@@ -46,6 +63,12 @@ li a {
     font-size: 14px;
     font-weight: 500;
     line-height: 16.41px;
+    border-radius: 10px;
+}
+
+li a:hover{
+    color: black !important;
+    background-color: #fff;
 }
 
 button[aria-expanded="false"] span.lines {
@@ -90,37 +113,138 @@ button[aria-expanded="false"] span.cross {
     line-height: 18.75px;
 }
 
-.para-btn:hover{
+.para-btn:hover {
     color: rgba(30, 113, 255) !important;
     background-color: #fff;
 }
 
-.section2-heading{
-font-size: 45px;
-font-weight: 500;
-line-height: 57.78px;
-margin-top: 80px;
+/* section2 */
+.section2-heading {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 57.78px;
+    margin-top: 80px;
 }
 
-.section2-para{
-font-size: 18px;
-font-weight: 400;
-line-height: 29.11px;
-max-width: 566px;
-color: rgba(107,114,120);
+.section2-para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.11px;
+    max-width: 566px;
+    color: rgba(107, 114, 120);
 }
 
-@media (max-width:992px) {
-    .heading{
-        font-size: 50px;        
+/* section3 */
+.section3 {
+    background-color: rgba(232, 241, 255);
+}
+
+.section3-heading {
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 57.78px;
+}
+
+.section3-para {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 33.96px;
+    color: rgba(100, 109, 120);
+}
+
+.section3-btn {
+    border: none;
+    border-radius: 60px;
+    background-color: #fff;
+    color: rgba(30, 113, 255);
+    padding: 10px 35px;
+    margin-bottom: 25px;
+    border: 1px solid rgba(30, 113, 255) ;
+}
+
+.section3-btn:hover {
+    background-color: rgba(30, 113, 255);
+    color: #fff;
+}
+
+hr {
+    max-width: 167px;
+    margin-top: 50px !important;
+}
+
+.rating-para {
+    max-width: 274px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 29.11px;
+    color: rgba(100, 109, 120);
+}
+
+.simple-para {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.11px;
+}
+
+.footer-heading {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30.16px;
+    letter-spacing: -0.02em;
+    color: rgba(30, 113, 255);
+}
+
+.footer-para {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24.25px;
+    color: rgba(100, 109, 120);
+    max-width: 168px;
+}
+
+.list-heading {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.11px;
+}
+
+footer {
+    li {
+        list-style-type: none;
+        text-align: left !important;
+    }
+    a{
+        text-decoration: none !important;
     }
 }
+
+.footer-link {
+    color: rgba(107, 114, 120) !important;
+    font-family: "Roboto";
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21.02px;
+}
+
+
+
+@media (max-width:992px) {
+    .heading {
+        font-size: 50px;
+    }
+}
+
 @media (max-width:768px) {
-    .heading{
+    .heading {
         font-size: 40px;
         line-height: 50px;
     }
+
+    .flex-col-reverse {
+        flex-direction: column-reverse;
+    }
 }
+
 @media (max-width:576px) {
     .para-btn {
         padding: 10px 20px !important;
@@ -130,7 +254,30 @@ color: rgba(107,114,120);
         font-size: 30px;
         margin-top: 30px !important;
     }
-    .section2-para{
+
+    .section2-para {
         font-size: 14px;
+    }
+
+    .section3-btn{
+        padding: 10px 20px !important;
+    }
+}
+
+@media (min-width:992px) {
+    .overflow-img{
+        display: none;
+    }
+
+    .section3::after{
+        content: "";
+        position: absolute;
+        width: 50%;
+        height: 70%;
+        left: 0px !important;
+        background-image: url(../img/section3-\ img.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
     }
 }
