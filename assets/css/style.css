@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.Poppins {
+    font-family: "Poppins";
+}
+
+.Roboto {
+    font-family: "Roboto";
+}
+
+.w-100{
+    width: 100%;
+}
+.nav-section {
+    background-color: rgba(30, 113, 255);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    line-height: 30.16px;
+    letter-spacing: -0.02em;
+    font-size: 26px !important;
+}
+
+.app {
+    font-size: 26px;
+    font-weight: 275;
+    line-height: 30.16px;
+    letter-spacing: -0.02em;
+}
+
+.nav-btn {
+    background-color: rgba(75, 141, 255) !important;
+    border-radius: 210px;
+    border: none !important;
+    padding: 8px 20px;
+}
+
+li {
+    padding-left: 20px !important;
+}
+
+li a {
+    font-family: "Roboto";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+}
+
+button[aria-expanded="false"] span.lines {
+    display: block !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2833, 37, 41, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    width: 1.5rem;
+    height: 1.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+button[aria-expanded="false"] span.cross {
+    display: none !important;
+    width: 1.5rem;
+    height: 1.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.heading {
+    font-size: 75px;
+    font-weight: 600;
+    line-height: 96.3px;
+    letter-spacing: -0.02em;
+}
+
+.para {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24.61px;
+}
+
+.para-btn {
+    background-color: rgba(30, 113, 255);
+    border: 1px solid #fff;
+    border-radius: 60px;
+    padding: 12px 35px !important;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+}
+
+.para-btn:hover{
+    color: rgba(30, 113, 255) !important;
+    background-color: #fff;
+}
+
+@media (max-width:992px) {
+    .heading{
+        font-size: 50px;
+    }
+}
+@media (max-width:768px) {
+    .heading{
+        font-size: 40px;
+    }
+}
+@media (max-width:576px) {
+    .para-btn {
+        padding: 5px;
+    }
+}
