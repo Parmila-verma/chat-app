@@ -12,7 +12,7 @@
     width: 100%;
 }
 
-.fs-15{
+.fs-15 {
     font-size: 15px !important;
 }
 
@@ -50,10 +50,11 @@
     margin-left: 10px;
 }
 
-.nav-btn:hover{
+.nav-btn:hover {
     background-color: #fff !important;
-    color:rgba(75, 141, 255) !important ;
+    color: rgba(75, 141, 255) !important;
 }
+
 li {
     padding-left: 20px !important;
 }
@@ -66,7 +67,7 @@ li a {
     border-radius: 10px;
 }
 
-li a:hover{
+li a:hover {
     color: black !important;
     background-color: #fff;
 }
@@ -159,7 +160,7 @@ button[aria-expanded="false"] span.cross {
     color: rgba(30, 113, 255);
     padding: 10px 35px;
     margin-bottom: 25px;
-    border: 1px solid rgba(30, 113, 255) ;
+    border: 1px solid rgba(30, 113, 255);
 }
 
 .section3-btn:hover {
@@ -213,7 +214,8 @@ footer {
         list-style-type: none;
         text-align: left !important;
     }
-    a{
+
+    a {
         text-decoration: none !important;
     }
 }
@@ -259,17 +261,17 @@ footer {
         font-size: 14px;
     }
 
-    .section3-btn{
+    .section3-btn {
         padding: 10px 20px !important;
     }
 }
 
 @media (min-width:992px) {
-    .overflow-img{
+    .overflow-img {
         display: none;
     }
 
-    .section3::after{
+    .section3::after {
         content: "";
         position: absolute;
         width: 50%;
