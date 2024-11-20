@@ -16,6 +16,9 @@
     font-size: 15px !important;
 }
 
+.text-blue{
+    color: rgba(30, 113, 255) !important;
+}
 .fw-200 {
     font-weight: 200;
 }
@@ -29,6 +32,10 @@
 }
 .nav-section {
     background-color: rgba(30, 113, 255);
+}
+li a:hover{
+background-color: unset !important;
+color: unset !important;
 }
 
 .navbar-brand {
@@ -117,10 +124,6 @@ button[aria-expanded="false"] span.cross {
     line-height: 18.75px;
 }
 
-.para-btn:hover {
-    color: rgba(30, 113, 255) !important;
-    background-color: #fff;
-}
 
 /* section2 */
 .section2-heading {
@@ -156,19 +159,17 @@ button[aria-expanded="false"] span.cross {
     color: rgba(100, 109, 120);
 }
 
+.btn-bg-blue{
+    background-color: rgba(30, 113, 255) !important;
+}
 .section3-btn {
     border: none;
     border-radius: 60px;
-    background-color: #fff;
+    background-color:transparent;
     color: rgba(30, 113, 255);
     padding: 10px 35px;
     margin-bottom: 25px;
     border: 1px solid rgba(30, 113, 255);
-}
-
-.section3-btn:hover {
-    background-color: rgba(30, 113, 255);
-    color: #fff;
 }
 
 hr {
@@ -213,11 +214,6 @@ hr {
 }
 
 footer {
-    li {
-        list-style-type: none;
-        text-align: left !important;
-    }
-
     a {
         text-decoration: none !important;
     }
